@@ -13,8 +13,6 @@ export interface DiaryItem {
 
 // 示例日记数据
 const diaryData: DiaryItem[] = [
-	{
-	},
 ];
 
 // 获取日记列表（按时间倒序）
