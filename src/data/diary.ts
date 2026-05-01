@@ -29,7 +29,7 @@ export const getDiaryList = (limit?: number) => {
 };
 
 // 获取所有标签
-xport const getAllTags = () => {
+export const getAllTags = () => {
 	const tags = new Set<string>();
 	diaryData.forEach((item) => {
 		if (item.tags) {
