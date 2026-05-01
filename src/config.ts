@@ -57,9 +57,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "GasterMMT",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-		icon: "assets/home/home.webp",
+		icon: "assets/home/kanade.jpg",
 		// 网站Logo图片路径
-		logo: "assets/home/default-logo.webp",
+		logo: "assets/home/kanade.jpg",
 	},
 
 	// 页面自动缩放配置
@@ -162,21 +162,21 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Hello! Welcome To My Personal Blog!", // 主页横幅主标题
+			title: "Welcome To My Personal Blog!!!", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"Actually I Have No Idea What To Write In Subtitle",
+				"But The Animation Of It Looks So Cool",
+				"So I Wrote Something Useless Here",
+				"You Don't Need To Read All Of These Words",
+				"XD",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
 				speed: 100, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
-				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
+				pauseTime: 5000, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
@@ -203,11 +203,11 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
 		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		 {
+		   src: '/favicon/kanade.jpg',    // 图标文件路径
+		   theme: 'dark',              // 可选，指定主题 'light' | 'dark'
+		   sizes: '32x32',              // 可选，图标大小
+		 }
 	],
 
 	// 字体配置
@@ -368,7 +368,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/kanade.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "GasterMMT",
 	bio: "Do what you love, love what you do",
 	typewriter: {
