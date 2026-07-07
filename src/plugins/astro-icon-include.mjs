@@ -102,6 +102,7 @@ export function buildIconInclude() {
 	const include = {};
 	for (const [collection, names] of found) {
 		if (names.size === 0) {
+			include[collection] = [];
 			continue;
 		}
 		const valid = loadCollectionNames(collection);
